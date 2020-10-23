@@ -67,7 +67,9 @@ import { makeStyles } from "@material-ui/core/styles";
           .required("This field is required"),
 
        password: Yup.string()
-         .required("This field is required")          
+         .required("This field is required") 
+         .min(6, 'Password is too short.')
+         .max(20, 'Password is too long.')         
          .matches(
             /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/,
             "Must contain at least 8 characters, one uppercase, one lowercase, one number and a special character"
