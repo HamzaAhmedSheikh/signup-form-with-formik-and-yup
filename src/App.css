@@ -1,27 +1,26 @@
-*{
+* {
   margin: 0;
   padding : 0;
 }
 
-.MuiTypography-h5{
+.MuiTypography-h5 {
   margin-top: 20px !important;
   font-size: 30px !important;
   letter-spacing: 3px !important;
   font-weight: 700 !important;
 }
 
-.MuiButtonBase-root{
-  height: 40px !important;
-  /* background-color: black !important; */
+.MuiButtonBase-root {
+  height: 40px !important;  
 }
 
-.MuiButton-label{
+.MuiButton-label {
   letter-spacing: 5px !important;
   font-size: 16px !important;
   font-weight: 700 !important;
 }
 
-.makeStyles-paper-1{
+.makeStyles-paper-1 {
   margin-top: 110px;
 }
 
